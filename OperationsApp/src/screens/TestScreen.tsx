@@ -9,7 +9,7 @@ import {
 import EventEmitter from 'events';
 import useWebSocket from 'react-native-use-websocket';
 import { Audio } from 'expo-av';
-import { CustomLiveClient, LiveTranscriptionEvents, LiveConnectionState } from './DPWebSocket';
+import { CustomLiveClient, LiveTranscriptionEvents, LiveConnectionState } from '../components/DPWebSocket';
 import { Ionicons } from '@expo/vector-icons';
 
 /**

@@ -11,7 +11,7 @@ import {
   useSpeechRecognitionEvent,
 } from 'expo-speech-recognition';
 import * as Speech from 'expo-speech';
-import ConversationManager from './Conversarion';
+import ConversationManager from '../components/Conversarion';
 
 /**
  * TestScreen component for handling speech recognition
