@@ -50,6 +50,11 @@ const HomeScreen = ({ navigation }: { navigation: any }) => {
           >
             <Text style={styles.buttonText}>Test1</Text>
           </TouchableOpacity>
+          <TouchableOpacity style={[styles.button, styles.buttonSecondary]}
+            onPress={() => navigation.navigate('Test2')}
+          >
+            <Text style={styles.buttonText}>Test2</Text>
+          </TouchableOpacity>
         </View>
       </ScrollView>
     </SafeAreaView>

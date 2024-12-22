@@ -6,6 +6,7 @@ import TasksScreen from '../screens/TasksScreen';
 import TalkScreen from '../screens/TalkScreen';
 import TestScreen from '../screens/TestScreen';
 import TestScreen1 from '../screens/TestScreen1';
+import TestScreen2 from '../screens/TestScreen2';
 
 const Stack = createNativeStackNavigator();
 
@@ -21,6 +22,7 @@ export default function AppNavigation() {
       <Stack.Screen name="Talk" component={TalkScreen} />
       <Stack.Screen name="Test" component={TestScreen} />
       <Stack.Screen name="Test1" component={TestScreen1} />
+      <Stack.Screen name="Test2" component={TestScreen2} />
     </Stack.Navigator>
   );
 }
